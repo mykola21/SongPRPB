@@ -8,6 +8,7 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -23,3 +24,48 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* scroll-btn */
+
+body {
+  font-family: "PT Serif", serif;
+font-weight: 700;
+font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 109, 35);
+}
+
+.titleblock{
+  text-decoration:underline;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#songForm {
+  display: none; /* Початково ховаємо форму */
+} 
+
+.inputcodeword{
+  width: 50px;
+}
+
+.songword{
+  font-size: 20px;
+}
+#scrollToTopBtn {
+  display: none; /* Початково ховаємо кнопку */
+  position: fixed; /* Фіксуємо кнопку на сторінці */
+  bottom: 20px; /* Відстань від нижнього краю сторінки */
+  right: 20px; /* Відстань від правого краю сторінки */
+  z-index: 99; /* Забезпечуємо, щоб кнопка завжди була найвищим шаром */
+  background-color: #3d88ce; /* Колір кнопки */
+  color: white; /* Колір тексту кнопки */
+  border: none; /* Відключаємо границі */
+  border-radius: 50%; /* Закруглюємо краї кнопки (щоб вона була круглою) */
+  padding: 25px; /* Збільшуємо розмір кнопки */
+  cursor: pointer; /* Змінюємо вигляд курсору при наведенні на кнопку */
+}
+
